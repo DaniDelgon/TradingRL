@@ -4,7 +4,7 @@ So, what we are going to do in this notebook is to build a deep reinforcement al
 
 ![imagen](https://user-images.githubusercontent.com/18196870/206582870-04122003-5409-43d0-967d-c9a6eb58a01e.png)
 
-This notebook is divided by different parts:
+This notebook is divided in different parts:
 
 1. Import and downloading of the data -> Where we are going to install the OHLCV (Close, High, Low, Close, Volume) financial data from the yahoo finance library ib the form of a pandas DataFrame and install a few dependencies that we are going to need.
 
