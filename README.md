@@ -1,6 +1,10 @@
 # TradingRL
 
-So, what we are going to do in this notebook is to build a deep reinforcement algorithm to develop trading strategies. This notebook is divided by different parts:
+So, what we are going to do in this notebook is to build a deep reinforcement algorithm to develop trading strategies. 
+
+![imagen](https://user-images.githubusercontent.com/18196870/206582870-04122003-5409-43d0-967d-c9a6eb58a01e.png)
+
+This notebook is divided by different parts:
 
 1. Import and downloading of the data -> Where we are going to install the OHLCV (Close, High, Low, Close, Volume) financial data from the yahoo finance library ib the form of a pandas DataFrame and install a few dependencies that we are going to need.
 
@@ -19,6 +23,4 @@ In this environment environment, we are going to implement a method to render th
 7. Test and performance renderization -> After training, we will visualize the performance of the model through the training with tensorboard, and we are going to load the model wihch gets the best Mean Reward in the training processwith the help of tensorboard. Then, we are going to visualize the performance of this model in the test data partition.
 
 8. Model Performance visualization trough the training process -> Last, we are going to use the render method of our environment to visualize the performance of the model every 10k steps of training, in the training partition of our dataset.
-
-![imagen](https://user-images.githubusercontent.com/18196870/206582870-04122003-5409-43d0-967d-c9a6eb58a01e.png)
 
